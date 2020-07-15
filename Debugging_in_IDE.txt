@@ -1,6 +1,18 @@
 1 - What is the purpose of a breakpoint?
+To pause the code/test running at a specified point/line and launch debugger console. Allowing you to debug lines of code, make changes etc. Until Resume is selected to resume program.
 
 2 - Does the line of code on a breakpoint run when you start debugging?
+No the line will not run until we select Step Into
+
 3 - How do we debug the next line of code?
+In the debugging tools, select Step Over
+
 4 - What does the step into command do?
+Step Into runs the line of code at the breakpoint
+
 5 - What is the difference between evaluate expression and evaluate code fragment?
+Evaluate expression runs methods on instances of objects created. (no ; required)
+
+Code Fragment Mode will run multiple lines of code and create variables to store lines of code. (Normal Java ;)
+
+PS. How stressful was it when you seen low battery at the end of the video?!
